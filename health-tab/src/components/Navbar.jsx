@@ -13,7 +13,7 @@ function Navbar(props) {
     height: 60px;
 
     text-align: center;
-    line-height: 4;
+    line-height: 5;
   `;
 
   return (
@@ -25,22 +25,22 @@ function Navbar(props) {
       <NavList className="nav-list">
         <NavItem key={1} className="nav-item">
           <NavLink className="nav-link" id="benefits" 
-            href="javascript:void(0)">Benefits</NavLink>
+            href="javascript:void(0)">benefits</NavLink>
         </NavItem>
 
         <NavItem key={2} className="nav-item">
           <NavLink className="nav-link" id="features" 
-            href="javascript:void(0)">Features</NavLink>
+            href="javascript:void(0)">features</NavLink>
         </NavItem>
 
         <NavItem key={3} className="nav-item">
           <NavLink className="nav-link" id="how-it-works" 
-            href="javascript:void(0)">How It Works</NavLink>
+            href="javascript:void(0)">how it works</NavLink>
         </NavItem>
 
         <NavItem key={4} className="nav-item">
           <NavLink className="nav-link" id="resources" 
-            href="javascript:void(0)">Resources</NavLink>
+            href="javascript:void(0)">resources</NavLink>
         </NavItem>
       </NavList>
     </nav>

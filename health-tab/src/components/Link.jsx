@@ -10,6 +10,8 @@ function Link(props) {
 }
 
 export default styled(Link)`
+  font-size: 12px;
   text-decoration: none;
+  text-transform: uppercase;
   color: #444;
 `;

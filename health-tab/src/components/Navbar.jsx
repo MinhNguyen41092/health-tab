@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import logo from '../images/logo.png';
 
-function TitleLink(props) {
+function Logo(props) {
   return (
     <a className={props.className} href="javascript:void(0)">
       {props.children}
@@ -10,7 +10,7 @@ function TitleLink(props) {
   )
 }
 
-const StyledTitleLink = styled(TitleLink)`
+const StyledLogo = styled(Logo)`
   display: inline-block;
 
   width: 128px;
@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <header className="main-header">
       <h1 className="title">
-        <StyledTitleLink className="title-link" />
+        <StyledLogo className="title-link" />
       </h1>
     </header>
   )

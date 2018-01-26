@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Logo from './Logo';
 
-function Navbar() {
+function Navbar(props) {
   return (
-    <header className="main-header">
-      <h1 className="page-logo">
-        <Logo className="logo" />
-      </h1>
-    </header>
+    <nav className={props.className}>
+      {props.children}
+    </nav>
   )
 }
 
-export default Navbar;
+export default styled(Navbar)`
+  height: 60px;
+
+  background-color: #fff;
+`;

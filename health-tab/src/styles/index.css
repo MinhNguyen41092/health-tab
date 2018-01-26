@@ -7,12 +7,6 @@ body {
   font-family: "proxima-nova", Arial, Helvetica, sans-serif;
 }
 
-.main-header {
-  height: 60px;
-
-  background-color: #fff;
-}
-
 .page-logo {
   display: inline-block;
 

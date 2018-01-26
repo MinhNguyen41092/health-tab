@@ -15,6 +15,7 @@ export default styled(Logo)`
 
   width: 128px;
   height: 40px;
+  margin-left: 30px;
 
   background: url(${logo}) no-repeat;
 `;

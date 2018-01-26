@@ -1,14 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-class Link extends React.Component {
-  render() {
-    return (
-      <a href={this.props.href} id={this.props.id} className={this.props.className}>
-        {this.props.children}
-      </a>
-    )
-  }
+function Link(props) {
+  return (
+    <a href={props.href} id={props.id} className={props.className}>
+      {props.children}
+    </a>
+  )
 }
 
 export default styled(Link)`

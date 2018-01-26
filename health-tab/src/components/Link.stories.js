@@ -5,5 +5,6 @@ import Link from '../components/Link';
 
 storiesOf('Link', module)
   .add('nav link', () => (
-    <Link className="nav-link" id="features" href="javascript:void(0)">Features</Link>
+    <Link className="nav-link" id="benefits" 
+      href="javascript:void(0)" width="140px" height="60px">Benefits</Link>
   ));

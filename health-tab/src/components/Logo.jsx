@@ -11,7 +11,7 @@ function Logo(props) {
 }
 
 export default styled(Logo)`
-  display: inline-block;
+  display: block;
 
   width: 128px;
   height: 40px;

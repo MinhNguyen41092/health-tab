@@ -1,16 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-class NavItem extends React.Component {
-  render() {
-    return (
-      <li key={this.props.key} className={this.props.className}>
-        {this.props.children}
-      </li>
-    )
-  }
+function NavItem(props) {
+  return (
+    <li key={props.key} className={props.className}>
+      {props.children}
+    </li>
+  )
 }
 
 export default styled(NavItem)`
   display: inline-block;
+
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
 `;

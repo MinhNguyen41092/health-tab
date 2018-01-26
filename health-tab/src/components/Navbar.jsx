@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import StyledLogo from './Logo';
+import styled from 'styled-components';
+import Logo from './Logo';
 
 function Navbar() {
   return (
     <header className="main-header">
-      <h1 className="title">
-        <StyledLogo className="title-link" />
+      <h1 className="page-logo">
+        <Logo className="logo" />
       </h1>
     </header>
   )

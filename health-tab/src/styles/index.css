@@ -1,0 +1,20 @@
+@import url('reset.css');
+
+body {
+  background-color: #ededed;
+
+  color: #444;
+  font-family: "proxima-nova", Arial, Helvetica, sans-serif;
+}
+
+.main-header {
+  height: 60px;
+
+  background-color: #fff;
+}
+
+.page-logo {
+  display: inline-block;
+
+  margin-top: 10px;
+}

@@ -10,7 +10,7 @@ function Logo(props) {
   )
 }
 
-const StyledLogo = styled(Logo)`
+export default styled(Logo)`
   display: inline-block;
 
   width: 128px;
@@ -18,5 +18,3 @@ const StyledLogo = styled(Logo)`
 
   background: url(${logo}) no-repeat;
 `;
-
-export default StyledLogo;
